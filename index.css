@@ -1,5 +1,5 @@
 body{
-    background-image: url(/mikulas/kepek/hatter.jpg);
+    background-image: url(/kepek/hatter.jpg);
 
     margin: auto;
     width: 979px;
@@ -15,7 +15,7 @@ body{
     margin: 0px;
 }
 header{
-    background-image: url(/mikulas/kepek/fejlec.jpg);
+    background-image: url(/kepek/fejlec.jpg);
     background-repeat: no-repeat;
     background-size: 979px;
     background-position: center;
