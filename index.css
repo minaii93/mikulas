@@ -1,0 +1,104 @@
+body{
+    background-image: url(/mikulas/kepek/hatter.jpg);
+
+    margin: auto;
+    width: 979px;
+    max-width: 1000px;
+    
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+    color: beige;
+    font-size: 10pt;
+
+    margin: 0px;
+}
+header{
+    background-image: url(/mikulas/kepek/fejlec.jpg);
+    background-repeat: no-repeat;
+    background-size: 979px;
+    background-position: center;
+    height: 300px;
+    font-weight: bold;
+    border-bottom: solid;
+    border-color: grey;
+    word-spacing: 4px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    opacity: 85%;
+}
+header h1 {
+    color: red; /* 11. A fejlécben lévő szöveg színe legyen piros! */
+    font-weight: bold; /* 12. A fejlécben lévő szöveg színe legyen vastag betűs! */
+    font-family: cursive; /* 13. A fejlécben lévő szöveg betű típusa legyen cursive. */
+    text-align: center; /* 15. A fejlécben lévő szöveget igazítsd középre! */
+    font-size: 36px;
+  }
+header img{
+    width: 900px;
+}
+aside{
+    background-color: beige;
+}
+aside img{
+    width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: red;
+    border-style: solid;
+    padding: 10px;
+    margin:0;
+}
+main{
+    width: 979px;
+    max-width: 1000px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-family: cursive;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 1fr;
+    background-color: beige;
+}
+nav{
+    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr .2fr;
+
+    
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    align-items: center;
+    border-bottom: white;
+    border-style: solid;
+
+}
+nav li{
+    list-style: none;
+}
+article{
+    background-color: beige;
+}
+article p{
+    background-color: beige;
+    font-family: cursive;
+    color: black !important;
+}
+article h2{
+    font-family: cursive;
+    color: red;
+    font-size: 25px;
+}
+article h3{
+    align-items: center;
+    margin: 0px;
+    padding: 100px;
+
+}
