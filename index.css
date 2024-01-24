@@ -55,6 +55,7 @@ aside img{
     border-style: solid;
     padding: 10px;
     margin:0;
+    background-size: 100%;
 }
 footer{
     width: 979px;
