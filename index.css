@@ -1,5 +1,5 @@
 body{
-    background-image: url(/kepek/hatter.jpg);
+    background-image: url(/mikulas/kepek/hatter.jpg);
 
     margin: auto;
     width: 979px;
@@ -11,29 +11,35 @@ body{
     font-family: Arial, Verdana, sans-serif;
     color: beige;
     font-size: 10pt;
+    text-decoration: none;
+    font-family: cursive;
+    
 
     margin: 0px;
 }
 header{
-    background-image: url(/kepek/fejlec.jpg);
+    background-image: url(/mikulas/kepek/fejlec.jpg);
     background-repeat: no-repeat;
     background-size: 979px;
-    background-position: center;
-    height: 300px;
+    background-position: cover;
+    height: 550px;
     font-weight: bold;
     border-bottom: solid;
     border-color: grey;
     word-spacing: 4px;
     padding-bottom: 30px;
     padding-left: 30px;
-    opacity: 85%;
+    opacity: .8;
 }
 header h1 {
     color: red; /* 11. A fejlécben lévő szöveg színe legyen piros! */
+    padding: 60px;
     font-weight: bold; /* 12. A fejlécben lévő szöveg színe legyen vastag betűs! */
     font-family: cursive; /* 13. A fejlécben lévő szöveg betű típusa legyen cursive. */
     text-align: center; /* 15. A fejlécben lévő szöveget igazítsd középre! */
     font-size: 36px;
+    margin: auto;
+    width: 80%;
   }
 header img{
     width: 900px;
@@ -50,24 +56,27 @@ aside img{
     padding: 10px;
     margin:0;
 }
-main{
+footer{
     width: 979px;
     max-width: 1000px;
     background-color: red;
+    height: 30px;
     color: white;
     font-size: 12px;
     font-family: cursive;
     text-align: center;
+    padding-top: 8px;
 }
 .grid{
     display: grid;
-    grid-template-columns: 0.7fr 1fr 1fr;
+    grid-template-columns: 0.7fr 1.7fr ;
     background-color: beige;
 }
 nav{
     background-color: red;
     display: grid;
     grid-template-rows: 1fr .2fr;
+    border-top: solid 1px white;
 
     
 }
@@ -81,10 +90,14 @@ nav ul{
 
 }
 nav li{
+    text-align: center;
     list-style: none;
+    font-weight: bold;
 }
+
 article{
     background-color: beige;
+    padding: 15px;
 }
 article p{
     background-color: beige;
@@ -101,4 +114,10 @@ article h3{
     margin: 0px;
     padding: 100px;
 
+}
+
+article img{
+    
+    float: right;
+      
 }
